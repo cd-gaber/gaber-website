@@ -3,87 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gaber TalaaT Mohamed | Official Website</title>
-    <meta name="description" content="الموقع الرسمي لـ Gaber TalaaT Mohamed - حساباتي الرسمية على كل المنصات">
-    <meta name="google-site-verification" content="V_XS45Mo_SwPe2OdzYoHYZESWuN7_B6sEOAM1nan5mo" />
-    <!-- Schema Markup عشان Knowledge Panel -->
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Gaber TalaaT Mohamed",
-  "alternateName": ["جابر طلعت محمد", "GTM", "g.t.m_27"],
-  "url": "https://gabertalaatmohamed.netlify.app",
-"image": "https://gabertalaatmohamed.netlify.app/gaber.jpg",
-  "jobTitle": "Content Creator",
-  "sameAs": [
-    "https://www.instagram.com/g.t.m_27",
-    "https://www.facebook.com/share/1HXddENDoj/",
-    "https://www.tiktok.com/@gtm.27",
-    "https://www.snapchat.com/add/gtmm_27"
-  ],
-  "description": "الموقع الرسمي لـ Gaber TalaaT Mohamed - جابر طلعت محمد"
-}
-</script>
-
+    <title>Gaber Talaat Mohamed</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap');
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { 
-            font-family: 'Cairo', sans-serif; 
-            background: #0a0a0a; 
-            color: #fff; 
-            line-height: 1.8;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; text-align: center; }
-        .profile img { 
-            width: 160px; height: 160px; 
-            border-radius: 50%; 
-            border: 4px solid #e50914;
-            object-fit: cover;
-            margin-bottom: 20px;
-        }
-        h1 { font-size: 2.8rem; margin: 10px 0; font-weight: 900; }
-        .bio { color: #b3b3b3; font-size: 1.2rem; margin-bottom: 40px; }
-        .links { display: flex; flex-direction: column; gap: 16px; max-width: 500px; margin: 0 auto; }
-        .links a {
-            background: #181818;
+        body {
+            background: #0a0a0a;
             color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            animation: fadeIn 1s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #fff;
+            margin-bottom: 20px;
+            box-shadow: 0 0 30px rgba(255,255,255,0.1);
+        }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        .title {
+            color: #888;
+            margin-bottom: 30px;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .social-icons a {
+            width: 50px;
+            height: 50px;
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 22px;
             text-decoration: none;
-            padding: 18px 20px;
-            border-radius: 14px;
-            font-size: 1.2rem;
-            font-weight: 700;
-            border: 2px solid #2a2a2a;
-            transition: all 0.3s ease;
+            transition: 0.3s;
         }
-        .links a:hover { 
-            background: #e50914; 
-            border-color: #e50914; 
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(229, 9, 20, 0.3);
+        .social-icons a:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
         }
-        footer { margin-top: 70px; color: #555; font-size: 0.9rem; }
+        .whatsapp:hover { background: #25D366 !important; }
+        .facebook:hover { background: #1877F2 !important; }
+        .instagram:hover { background: #E4405F !important; }
+        .telegram:hover { background: #0088cc !important; }
+        .snapchat:hover { background: #FFFC00 !important; color: #000 !important; }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="profile">
-            <img src="gaber.jpg" alt="Gaber TalaaT Mohamed">
-            <h1>Gaber TalaaT Mohamed</h1>
-            <p class="bio">Official Accounts | الحسابات الرسمية</p>
+        <img src="gaber.jpg" alt="Gaber Talaat" class="profile-img">
+        <h1>Gaber Talaat Mohamed</h1>
+        <p class="title">Content Creator | Social Media Specialist</p>
+        
+        <div class="social-icons">
+            <a href="https://wa.me/201140748597" target="_blank" class="whatsapp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.facebook.com/share/18abG5c7zP/" target="_blank" class="facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/g.t.m_27?igsh=MWFmam52aGRsdTcydQ==" target="_blank" class="instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://t.me/GTM_MEDIA2" target="_blank" class="telegram">
+                <i class="fab fa-telegram"></i>
+            </a>
+            <a href="https://www.snapchat.com/add/gtmm_27?share_id=4oVL3tMID5o&locale=ar-AA" target="_blank" class="snapchat">
+                <i class="fab fa-snapchat"></i>
+            </a>
         </div>
-
-        <div class="links">
-            <a href="https://www.instagram.com/g.t.m_27" target="_blank">Instagram</a>
-            <a href="https://www.facebook.com/share/1HXddENDoj/" target="_blank">Facebook</a>
-            <a href="https://www.tiktok.com/@gtm.27" target="_blank">TikTok</a>
-            <a href="https://www.snapchat.com/add/gtmm_27" target="_blank">Snapchat</a>
-        </div>
-
-        <footer>
-            © 2026 Gaber TalaaT Mohamed - All Rights Reserved
-        </footer>
     </div>
 </body>
 </html>
